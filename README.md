@@ -27,7 +27,7 @@ There are a few sensible defaults:
 - **HSTS Preload enabled by default—** you can opt-out of HSTS with an environment variable (`NOHSTS`)
 - **FLoC disabled by default—** this cannot be re-enabled and is left disabled for the privacy of the end user of your website
 - **Sensible caching for images and font files—** these defaults can be edited with `CACHE_IMAGE_TIME` and `CACHE_FONT_TIME`, and can be disabled by setting both to `0`
-- **Defalte and GZip compression out-of-the-box—** modern compression helps leagues with reducing data transfers, and is made readily available
+- **Gzip compression out-of-the-box—** modern compression helps leagues with reducing data transfers, and is made readily available
 - **Framing disabled by default—** this prevents click-through phising and can be disabled with `UNSAFE_FRAME` set to `true`
 - **XSS protection out-of-the-box—** basic cross-site protection is provided out of the box, but further security measures should always be taken.
 
