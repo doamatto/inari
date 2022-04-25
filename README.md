@@ -1,3 +1,5 @@
+**NOTE:** I stopped working on this as Caddy has grown to be a more viable solution for me.
+
 # 稲荷 (Inari)
 A zero-config web server that gives you sensible defaults.
 
